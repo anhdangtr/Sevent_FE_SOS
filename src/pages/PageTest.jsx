@@ -3,7 +3,7 @@ import axios from "axios";
 import EventCardTest from "../components/EventCardTest";
 import { useNavigate } from "react-router-dom";
 import "./PageTest.css";
-import Navbar from "../components/Narbar";
+// import Navbar from "../components/Narbar";
 
 const PageTest = () => {
   const [events, setEvents] = useState([]);
@@ -147,6 +147,9 @@ const PageTest = () => {
               >
                 <img src="src/assets/Category_Volunteer.png" alt="Volunteer" />
                 <span className="category-name">Volunteer</span>
+              </div>
+              <div>
+                <span>Test git hub coi ổn chưa</span>
               </div>
               <div
                 className={`category-option ${category === 'academic' ? 'active' : ''}`}
